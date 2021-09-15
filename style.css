@@ -50,3 +50,34 @@
     font-weight: bold;
     margin: auto;
 }
+
+.about{
+    width: 100vw;
+    height: 81vh;
+    display: flex;
+
+}
+.content{
+    text-align:center;
+    font-size: 280%;
+
+    width: 50vw;
+}
+.image{
+    
+    width: 50vw;
+}
+h4{
+    color: blue;
+    margin-bottom: 7%;
+    margin-top: 7%;
+
+}
+p{
+    font-size: 70%;
+    margin-left: 3%;
+}
+.about_image{
+    margin-left: 25%;
+    margin-top: 11%;
+}
