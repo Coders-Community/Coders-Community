@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Sans-serif;
+}
+
+.header {
+    background: #D14B4B;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-items {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer {
+    background: #D14B4B;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+}
+
+.footer-logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.about{
+    width: 100vw;
+    height: 81vh;
+    display: flex;
+
+
+}
+.content{
+    text-align:center;
+    font-size: 280%;
+    width: 50vw;
+}
+.image{
+    
+    width: 50vw;
+}
+h4{
+    color: blue;
+    margin-bottom: 7%;
+    margin-top: 7%;
+
+    font-family: 'Port Lligat Slab', serif;
+
+}
+p{
+    font-family: 'Port Lligat Slab', serif;
+    font-size: 70%;
+    margin-left: 3%;
+}
+.about_image{
+    margin-left: 25%;
+    margin-top: 11%;
+}
