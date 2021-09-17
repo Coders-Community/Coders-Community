@@ -1,7 +1,7 @@
 /* Variables and Font-Faces */
 @font-face {
   font-family: "Druk Wide Bold";
-  src: url(../media/font/Druk\ Wide\ Bold.ttf);
+  src: url("../media/font/Druk\ Wide\ Bold.ttf");
 }
 @font-face {
   font-family: "Work Sans";
@@ -135,14 +135,14 @@
   grid-template-columns: repeat(2, 1fr);
   height: 100vh;
   max-width: 100vw;
-  background: var(--white) url("/media/PNG/mainbackground.png") no-repeat;
+  background: var(--white) url("../media/PNG/mainbackground.png") no-repeat;
   background-size: 77rem;
 }
 .hero-left {
   position: relative;
   z-index: 2;
   top: 4.9rem;
-  background: url("/media/PNG/hero-img.png") no-repeat;
+  background: url("../media/PNG/hero-img.png") no-repeat;
   background-size: 110%;
 }
 .hero-right {
@@ -171,7 +171,7 @@
   height: 123.17px;
   left: 656.14px;
   top: 385px;
-  background: url("/media/PNG/star-removebg-preview.png") no-repeat;
+  background: url("../media/PNG/star-removebg-preview.png") no-repeat;
   background-size: 95%;
   transform: rotate(21deg);
 }
