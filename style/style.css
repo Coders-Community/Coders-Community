@@ -197,3 +197,16 @@
   cursor: pointer;
   transform: translateY(-5px);
 }
+
+/* Custom Scroll Bar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #ffe675; 
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
