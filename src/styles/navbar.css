@@ -1,0 +1,33 @@
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.main-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-logo{
+    width: 20%;
+    
+}
+.logo{
+    width: 15%
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-home{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
